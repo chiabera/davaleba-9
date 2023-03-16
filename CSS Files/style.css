@@ -72,6 +72,7 @@ li a:hover {
 .article_section {
   width: 100%;
   background-color: #0b0a0a;
+  padding-bottom: 96px;
 }
 
 .article_header {
@@ -97,4 +98,27 @@ li a:hover {
   line-height: 20.83px;
   text-align: justify;
   padding: 64px 109px 130px 109px;
+}
+
+/* Footer Style Starts Here */
+.footer_section {
+  width: 100%;
+  background-color: #2a2626;
+  padding: 32px 125px;
+}
+
+.footer_box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer_icons {
+  display: flex;
+  gap: 49px;
+}
+
+.icons {
+  font-size: 58px;
+  color: white;
 }
